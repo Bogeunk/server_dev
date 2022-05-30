@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'server_dev.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',
+        'HOST': '52.78.113.223',
         'NAME': 'mysql-db',
         'USER': 'root',
         'PASSWORD': 'password',
@@ -89,7 +89,7 @@ DATABASES = {
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1",
+        "LOCATION": "redis://52.78.113.223",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
